@@ -25,6 +25,8 @@
   padding: 1.6rem 0 ;
   display: inline-block;
   position: relative;
+  font-family: 'Poppins';
+  font-weight: 400;
 }
 .header-menu li a::after{
   content: '';
