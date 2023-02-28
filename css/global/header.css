@@ -1,8 +1,7 @@
 /* header */
 
 .header-bg{
-  background-color: #000;
-  color: #fff;
+  background-color: var(--cor-12);
 }
 .header-container{
   display: flex;
@@ -35,7 +34,7 @@
   height: .2rem;
   width: 0;
   left: 0;
-  background-color: #fff;
+  background-color: var(--cor-0);
   margin-top: .5rem;
   transition: .3s;
 }
@@ -48,7 +47,7 @@
 
 @media(max-width: 800px){
     .header-menu li a{
-      background-color: #111;
+      background-color: var(--cor-11);
       border-radius: .4rem;
       padding: 1.2rem 1.6rem;
     }
@@ -56,7 +55,7 @@
       gap: 2rem;
     }
     .header-menu li a:hover{
-      background: #2e2e2e;
+      background: var(--cor-10);
     }
     .header-menu li a:hover::after{
       display: none;
