@@ -17,3 +17,9 @@
     font-size: 1.6rem;
   }
 }
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
