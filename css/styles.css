@@ -11,6 +11,7 @@
 /* Home */
 @import './home/intro.css';
 @import './home/tech.css';
+@import './home/partners.css';
 
 /* bikes */
 @import './bicicletas/bicicletas-lista.css'
