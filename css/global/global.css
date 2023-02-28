@@ -28,3 +28,6 @@ img{
   display: block;
   height: auto;
 }
+img[src$=".jpg"]{
+  border-radius: .4rem;
+}
