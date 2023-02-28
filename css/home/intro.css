@@ -20,6 +20,7 @@
   object-fit: cover;
   height: 100%;
   border-radius: 0.4rem;
+  width: 100%;
 }
 .intro-content h1 {
   margin-bottom: 3.2rem;
@@ -33,7 +34,7 @@
 
 @media (max-width: 800px) {
   .intro-bg {
-    background-color: var(--cor--11);
+    background-color: var(--cor-11);
     padding: 4rem 2rem;
     box-shadow: inset 0px -60px var(--cor-0);
   }
