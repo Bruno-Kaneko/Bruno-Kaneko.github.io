@@ -33,14 +33,7 @@
 
 
 /* media queries */
-@media (max-width: 1200px) {
-  .intro-content h1 {
-    font-size: 4.8rem;
-  }
-  .intro-content p {
-    font-size: 1.8rem;
-  }
-}
+
 @media (max-width: 800px) {
   .intro-bg {
     background-color: var(--cor--11);
