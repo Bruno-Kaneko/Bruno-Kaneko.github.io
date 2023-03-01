@@ -36,7 +36,7 @@
     padding-bottom: 6rem;
   }
   .partners h2{
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
   }
   .partners-list{
     grid-template-columns: repeat(2, 1fr);
@@ -46,5 +46,8 @@
   }
   .partners-list li:nth-child(odd){
     border-left: none;
+  }
+  .partners-list li{
+    padding: 2rem;
   }
 }

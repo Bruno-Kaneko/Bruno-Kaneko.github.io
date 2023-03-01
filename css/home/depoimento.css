@@ -1,0 +1,56 @@
+/* depoimento */
+
+.depoimento{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: var(--cor-p1);
+  overflow: hidden;
+}
+.depoimento-img img{
+  border-radius: 0px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.depoimento-comment{
+  padding: 4rem 4rem 8rem 8rem;
+  align-self: end;
+}
+.depoimento-comment p{
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+  font-weight: 900;
+  margin-bottom: 3.2rem;
+  max-width: 32ch;
+  position: relative;
+}
+.depoimento-comment p::before, .depoimento-comment p::after{
+  font-size: 8rem;
+  color: var(--cor-p2);
+  position: absolute;
+}
+.depoimento-comment p::before{
+  content: '“';
+  left: -5rem;
+  top: -2rem;
+}
+.depoimento-comment p::after{
+  content: '”';
+}
+
+/* media queries */
+
+@media(max-width: 800px){
+  .depoimento{
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .depoimento-comment{
+    place-self: center;
+    padding: 4rem 2rem;
+    justify-self: center;
+  }
+  .depoimento-img img{
+    max-height: 300px;
+  }
+}

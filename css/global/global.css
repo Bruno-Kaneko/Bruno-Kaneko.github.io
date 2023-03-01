@@ -31,3 +31,6 @@ img{
 img[src$=".jpg"]{
   border-radius: .4rem;
 }
+blockquote{
+  margin: 0;
+}
