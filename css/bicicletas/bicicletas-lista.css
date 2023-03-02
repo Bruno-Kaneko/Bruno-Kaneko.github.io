@@ -47,7 +47,7 @@
 /* media queries */
 
 @media(max-width: 800px){
-  .bike-list{
+  .bikes-list{
     padding: 6rem 0 6rem 0;
   }
   .bike-menu{

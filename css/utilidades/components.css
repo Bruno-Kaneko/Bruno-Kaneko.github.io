@@ -12,14 +12,13 @@
 .btn:hover {
   background: linear-gradient(#ffb60d, #e59317);
 }
-.btn:hover:hover{
+.btn:hover{
   background-color: var(--cor-9);
 }
 .btn.sec{
   background: var(--cor-10);
   color: var(--cor-2);
 }
-
 @media (max-width: 600px) {
   .btn {
     padding: 1.2rem 1.6rem;
@@ -70,3 +69,20 @@
   }
 }
 /*  */
+
+.btn.seta::after{
+  content: '';
+  display: inline-block;
+  width: 1.8rem;
+  height: 1rem;
+  margin-left: 1.2rem;
+  background: url(../../img/icones/seta.svg);
+  transition: transform .3s;
+}
+.btn.seta:hover::after{
+  transform: translateX(.5rem);
+}
+.btn.seta{
+  display: flex;
+  align-items: center;
+}
