@@ -48,3 +48,25 @@
 .link:hover{
   color: var(--cor-0);
 }
+
+/* título das páginas internas */
+.text-bg{
+  background: var(--cor-11);
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+.text-container p {
+  margin-bottom: .4rem;
+}
+@media(max-width: 800px){
+  .text-bg{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .text-container p{
+    font-size: 1.6rem;
+    text-transform: lowercase;
+    font-weight: 400;
+  }
+}
+/*  */

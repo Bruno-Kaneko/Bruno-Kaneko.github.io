@@ -1,0 +1,17 @@
+/* termos */
+.termos-content{
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+.termos-content h2{
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+.termos-content p + h2{
+  margin-top: 4rem;
+}
+.termos-content p{
+  margin-bottom: 2.4rem;
+  max-width: 75ch;
+}
+/* media queries */
