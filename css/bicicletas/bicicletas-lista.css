@@ -2,6 +2,9 @@
 .bikes-list{
   padding: 6rem 0 12rem 0;
 }
+#bicicletas .bikes-list{
+  padding: 8rem 0 12rem 0;
+}
 .bikes-list h2{
   margin-bottom: 4rem;
 }
@@ -12,6 +15,9 @@
   max-width: 1450px;
   margin: 0 auto;
   overflow-x: auto;
+}
+#bicicletas .bike-menu{
+  padding: 0 0 2rem 0;
 }
 .bike-menu img{
   min-width: 280px;
