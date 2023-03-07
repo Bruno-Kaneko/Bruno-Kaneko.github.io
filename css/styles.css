@@ -28,4 +28,12 @@
 @import './bicicleta-page/bicicicleta.css';
 @import './bicicleta-page/seguro-page.css';
 
+/* contato */
+@import './contato/contato.css';
+@import './contato/lojas.css';
+@import './contato/form.css';
+
 @import './termos/termos.css';
+
+/* orcamento */
+@import './orcamento/orcamento.css'

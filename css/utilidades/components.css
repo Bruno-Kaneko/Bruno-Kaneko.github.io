@@ -8,6 +8,8 @@
   text-transform: uppercase;
   font: 600 1.8rem/1.35 'Poppins', sans-serif;
   max-width: max-content;
+  border: none;
+  cursor: pointer;
 }
 .btn:hover {
   background: linear-gradient(#ffb60d, #e59317);
@@ -85,4 +87,7 @@
 .btn.seta{
   display: flex;
   align-items: center;
+}
+.col-2{
+  grid-column: span 2;
 }
