@@ -59,6 +59,9 @@
 .text-container p {
   margin-bottom: .4rem;
 }
+.text-container{
+  background:url(../../img/dec/top-right.svg) no-repeat top 40px right 50px;
+}
 @media(max-width: 800px){
   .text-bg{
     padding-top: 4rem;

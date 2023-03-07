@@ -15,6 +15,7 @@
 .depoimento-comment{
   padding: 4rem 4rem 8rem 8rem;
   align-self: end;
+  background: url(../../img/dec/top-left-p.svg) no-repeat ;
 }
 .depoimento-comment p{
   font-family: 'Merriweather', serif;
@@ -39,7 +40,11 @@
 }
 
 /* media queries */
-
+@media(min-width: 1200px){
+  .depoimento-img img{
+    max-height: 520px;
+  }
+}
 @media(max-width: 800px){
   .depoimento{
     grid-template-columns: 1fr;
