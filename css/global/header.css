@@ -34,7 +34,7 @@
   margin-top: .5rem;
   transition: .3s;
 }
-.header-menu li a:hover::after{
+.header-menu li a:hover::after, .header-menu a.ativo::after{
   width: 100%;
   right: 100%;
 }
