@@ -27,7 +27,7 @@ parametros.forEach(function(parametro){
 const perg = document.querySelectorAll('.questions button')
 
 /**@param {MouseEvent} event */
-function ativacao(event){
+function ativacao(event){ 
   const perguntasss = event.currentTarget;
   const controls = perguntasss.getAttribute('aria-controls')
   const resp = document.getElementById(controls)
@@ -38,6 +38,26 @@ function ativacao(event){
 
 } 
 
+
 perg.forEach(function(pergunta){
   pergunta.addEventListener('click', ativacao)
 })
+
+
+// Galeria de bicicletas
+
+const galeria = document.querySelectorAll('.bikes-imgs img');
+const galeria_conteiner = document.querySelector('.bikes-imgs');
+
+function trocarImagem(event){
+  const img = event.currentTarget;
+  const media = matchMedia('(min-width: 1000px)').matches;
+  if(media){
+    galeria_conteiner.prepend(img);
+  }
+}
+
+
+galeria.forEach(function(img){
+  img.addEventListener('click', trocarImagem)
+}) 
