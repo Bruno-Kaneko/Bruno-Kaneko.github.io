@@ -44,10 +44,10 @@
   width: 100%;
   text-align: left;
 }
-.questions dd {
+.js .questions dd {
   display: none;
 }
-.questions dd.ativa {
+.js .questions dd.ativa {
   display: block;
 }
 .questions dd{

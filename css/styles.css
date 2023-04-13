@@ -36,4 +36,5 @@
 @import './termos/termos.css';
 
 /* orcamento */
-@import './orcamento/orcamento.css'
+@import './orcamento/orcamento.css';
+@import './utilidades/animacao.css';

@@ -61,3 +61,9 @@ function trocarImagem(event){
 galeria.forEach(function(img){
   img.addEventListener('click', trocarImagem)
 }) 
+
+// Plugins
+
+if (window.SimpleAnime){
+  new SimpleAnime();
+}
